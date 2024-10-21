@@ -54,6 +54,24 @@ nav.sticking {
   cursor: pointer;
   display: none;
 } */
+
+nav .hamburger {
+  width: 30px;
+  height: 30px;
+  right: 5%;
+  top: 36%;
+  z-index: 5;
+  position: absolute;
+  cursor: pointer;
+  display: block; /* Ensure it's visible in mobile mode */
+}
+
+@media (min-width: 768px) {
+  nav .hamburger {
+    display: none; /* Hide on larger screens */
+  }
+}
+
 nav .hamburger span {
   display: block;
   background: #c53510;
