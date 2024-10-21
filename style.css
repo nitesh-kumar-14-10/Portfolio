@@ -43,7 +43,7 @@ nav.sticking {
 #logo-img {
   width: 72%;
 }
- nav .hamburger {
+/* nav .hamburger {
   width: 1000%;
   height: 100px;
   right: 5%;
@@ -53,7 +53,7 @@ nav.sticking {
   position: absolute;
   cursor: pointer;
   display: none;
-}
+} */
 nav .hamburger span {
   display: block;
   background: #c53510;
@@ -141,7 +141,7 @@ main {
   text-transform: capitalize;
   color: var(--title-color);
   margin-bottom: 12px;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 500;
 }
 .bullet-point {
@@ -368,7 +368,7 @@ footer {
   padding: 18px 0;
 }
 .creator a {
-  color: #0712db;
+  color: #000dff;
 }
 .copyright {
   font-size: 13px;
