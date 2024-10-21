@@ -43,7 +43,7 @@ nav.sticking {
 #logo-img {
   width: 72%;
 }
-/* nav .hamburger {
+ nav .hamburger {
   width: 1000%;
   height: 100px;
   right: 5%;
@@ -53,7 +53,7 @@ nav.sticking {
   position: absolute;
   cursor: pointer;
   display: none;
-} */
+}
 nav .hamburger span {
   display: block;
   background: #c53510;
